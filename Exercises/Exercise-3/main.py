@@ -19,8 +19,12 @@ def stream_wet_segment(first_path):
     resp.raise_for_status()
     # decompress the gz stream as we iterate
     with gzip.GzipFile(fileobj=resp.raw) as gz:
+        count = 0
         for raw in gz:
             print(raw.decode("utf-8").rstrip())
+            count += 1
+            if count >= 10:
+                break
 
 def main():
     print("Downloading index…")
