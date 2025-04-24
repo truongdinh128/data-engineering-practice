@@ -23,6 +23,7 @@ URL: https://data.commoncrawl.org/
 ![](images/2025-04-23-18-23-53.png)
 
 **docker-compose up run**
+Khi chạy sẽ hiển thị text liên tục, **CTRL + C** để dừng
 ![](images/2025-04-23-19-59-09.png)
 
 # Exercise-4:
@@ -34,3 +35,26 @@ URL: https://data.commoncrawl.org/
 
 **Kiểm tra**
 ![](images/2025-04-23-20-53-12.png)
+
+# Pipeline:
+**Kết quả: Thành công**
+
+![](images/2025-04-25-01-31-56.png)
+
+**Log Task 1**
+![](images/2025-04-25-01-33-06.png)
+
+**Log Task 2: Exercise 1**
+![](images/2025-04-25-01-39-10.png)
+
+**Log Task 3: Exercise 2**
+![](images/2025-04-25-01-42-48.png)
+
+**Log Task 4: Exercise 3**
+![](images/2025-04-25-01-37-50.png)
+
+**Log Task 5: Exercise 4**
+![](images/2025-04-25-01-40-34.png)
+
+**Log Task 6: Exercise 5 (task này không có output)**
+![](images/2025-04-25-01-41-42.png)
